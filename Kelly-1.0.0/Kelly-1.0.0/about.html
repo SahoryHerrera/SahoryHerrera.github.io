@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sobre Mí - Sahory H.</title>
+  <meta name="description" content="Portafolio de Desarrolladora de Software">
+  <meta name="keywords" content="desarrolladora, software, frontend, programadora">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Estilos adicionales -->
+  <style>
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      z-index: 1;
+    }
+
+    .hero-about {
+      position: relative;
+      height: 100vh;
+      background: linear-gradient(180deg, #231942 0%, #000000 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero-about h1 {
+      font-size: 48px;
+      color: #fff;
+      z-index: 2;
+      position: relative;
+    }
+
+    .hero-about p {
+      color: #e0e0e0;
+      font-size: 20px;
+      margin-top: 10px;
+      z-index: 2;
+      position: relative;
+    }
+
+    .skills .progress-bar {
+      background: #5e60ce;
+    }
+
+    .btn-custom {
+      background: linear-gradient(45deg, #231942, #5e60ce);
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 50px;
+      transition: 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn-custom:hover {
+      background: linear-gradient(45deg, #5e60ce, #231942);
+      transform: scale(1.05);
+    }
+
+    .shadow-glow {
+      box-shadow: 0 0 20px rgba(94, 96, 206, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .shadow-glow:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px rgba(94, 96, 206, 0.85);
+    }
+
+    .img-animate {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+     
+  </style>
+
+</head>
+
+<body class="about-page dark-background">
+
+
+  <header id="header" class="header d-flex align-items-center sticky-top"
+    style="background: rgba(0,0,0,0.7); z-index: 10;">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Sahory H.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html" class="active">Sobre mí</a></li>
+          <li><a href="resume.html">Experiencia</a></li>
+          <li><a href="portfolio.html">Proyectos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/SahoryHerrera" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/sahory-skarleth-cano-herrera-593a302b0" target="_blank"><i
+            class="bi bi-linkedin"></i></a>
+      </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <main class="main">
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Mí</h2>
+        <p>Desarrolladora Full Stack con pasión por el diseño funcional, el código limpio y la experiencia de usuario.
+        </p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-5 align-items-center">
+
+          <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/profile-img.png" class="img-fluid rounded-circle shadow-glow img-animate"
+              alt="Foto de perfil Sahory" style="max-width: 320px;">
+          </div>
+
+          <div class="col-lg-7 content text-light" data-aos="fade-left" data-aos-delay="400">
+            <h3 class="fw-bold mb-3 animate__animated animate__fadeInUp">Desarrolladora Full Stack con Enfoque en
+              Frontend</h3>
+
+            <p class="fst-italic mb-3 animate__animated animate__fadeInUp animate__delay-1s">
+              ¡Hola! Soy Sahory Skarleth Cano Herrera, desarrolladora Full Stack enfocada en crear experiencias digitales innovadoras.
+            </p>
+
+            <p class="animate__animated animate__fadeInUp animate__delay-2s">
+              Con formación en <strong>Ingeniería en Sistemas Computacionales</strong> y experiencia en diseño y
+              desarrollo web, trabajo tanto en frontend como backend. Domino tecnologías como <strong>HTML5, CSS3,
+                JavaScript, React, Node.js, WordPress, MongoDB y SQL</strong>. He creado sistemas CRM, dashboards
+              analíticos, tiendas online y soluciones personalizadas con enfoque en rendimiento y experiencia de
+              usuario.
+            </p>
+
+            <ul class="list-unstyled mt-4 animate__animated animate__fadeInUp animate__delay-3s">
+              <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Tegucigalpa, Honduras</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sahoryherrera2233@gmail.com</span>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Telefono:</strong> <span>+504 9708-8277</span></li>
+            </ul>
+
+            <a href="resume.html" class="btn-custom animate__animated animate__fadeInUp animate__delay-4s">Ver CV</a>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+
+
+    <!-- Animations-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <section id="skills" class="skills section" style="background-color: #1a1a1a;">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="animate__animated animate__fadeInDown">Habilidades</h2>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">Dominio de tecnologías modernas para construir
+          soluciones web dinámicas, robustas y centradas en el usuario.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row skills-content gy-5">
+          <div class="col-lg-6">
+            <div class="progress animate__animated animate__fadeInLeft">
+              <span class="skill">HTML5 <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 95%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInLeft animate__delay-1s">
+              <span class="skill">CSS3 <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInLeft animate__delay-2s">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInLeft animate__delay-3s">
+              <span class="skill">React.js <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInLeft animate__delay-4s">
+              <span class="skill">C++ / C# / .NET <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 75%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInLeft animate__delay-5s">
+              <span class="skill">Python / Java <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 70%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress animate__animated animate__fadeInRight">
+              <span class="skill">Node.js <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 75%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInRight animate__delay-1s">
+              <span class="skill">Git & GitHub <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInRight animate__delay-2s">
+              <span class="skill">WordPress, WooCommerce, Joomla, Wix <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+
+            <div class="progress animate__animated animate__fadeInRight animate__delay-3s">
+              <span class="skill">MongoDB / SQL Server / MariaDB <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%; transition: width 1.5s;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extra Tools -->
+        <div class="row mt-5" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-12 text-center">
+            <h4 class="text-light animate__animated animate__fadeInUp">Otras herramientas y tecnologías</h4>
+          </div>
+
+          <div
+            class="d-flex flex-wrap justify-content-center gap-3 animate__animated animate__fadeInUp animate__delay-1s">
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-bar-chart"></i> Power BI</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-vector-pen"></i> Figma</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-brush"></i> Canva</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-image"></i> Photoshop</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-terminal"></i> Terminal & CLI</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-shield-lock"></i> Ciberseguridad</span>
+            <span class="badge bg-primary fs-6 py-2 px-3"><i class="bi bi-table"></i> Excel Avanzado</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Incluye Bootstrap Icons si no lo tienes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <!-- Incluye Animate.css si no lo tienes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© Copyright <strong class="px-1 sitename">Sahory H.</strong> | Todos los derechos reservados</p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+      
+        <a href="https://github.com/SahoryHerrera" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/sahory-skarleth-cano-herrera-593a302b0" target="_blank"><i
+            class="bi bi-linkedin"></i></a>
+      </div>
+      </div>
+      <div class="credits">
+        Desarrollado con 💻 por Sahory H.
+      </div>
+    </div>
+
+  </footer>
+
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Typed.js initialization -->
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['Desarrolladora de Software.', 'Frontend Developer.', 'Apasionada de la Innovación.'],
+      typeSpeed: 60,
+      backSpeed: 30,
+      backDelay: 2000,
+      loop: true
+    });
+  </script>
+
+  <!-- Particles.js initialization -->
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.4 },
+        "size": { "value": 3 },
+        "move": { "speed": 2 }
+      },
+      "interactivity": {
+        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
